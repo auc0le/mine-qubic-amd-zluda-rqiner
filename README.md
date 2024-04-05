@@ -24,6 +24,9 @@ apt install cmake
 apt install python3
 ```
 ### 1.1.4 Rust
+```
+apt install rustc
+```
 ### 1.1.5 ROCm 5.7 or higher
   Using Ubuntu 22.04:
   ```
