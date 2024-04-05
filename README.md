@@ -27,7 +27,11 @@ apt install python3
 ```
 apt install rustc
 ```
-### 1.1.5 ROCm 5.7 or higher
+### 1.1.5 C++
+```
+apt install g++
+```
+### 1.1.6 ROCm 5.7 or higher
   Using Ubuntu 22.04:
   ```
     sudo apt install "linux-headers-$(uname -r)" "linux-modules-extra-$(uname -r)"
