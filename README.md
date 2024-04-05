@@ -3,7 +3,11 @@ Instructions on how to mine Qubic crypto on AMD GPUs with rqiner!
 
 I got this working on 4/5/2024 and I am getting 49.5 it/s on a Radeon 780M.
 
-I assume you are running Ubuntu, have a ZLUDA compatible AMD GPU, are working in your homedir, and you are already root (sudo su).
+I assume you:
+  - are running Ubuntu 22.04, 
+  - have a ZLUDA compatible AMD GPU, 
+  - are working in your homedir, 
+  - and you are already root (sudo su).
 
 # 1. Install ZLUDA
 ## 1.1 Prerequisites
