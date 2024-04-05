@@ -39,9 +39,13 @@ If your build fails, read the error message and resolve any issues.
 
 ## 1.2.3 Move build
 Once your build has succeeded, you will want to move your target\release folder to a permanent location:
-``` mv ./target/release /usr/lib/zluda ```
+```
+mv ./target/release /usr/lib/zluda
+ ```
 
 ## 1.3 Download the CUDA version of rqiner
  Link to great rqiner project: [https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.3.19-cuda-beta](https://github.com/Qubic-Solutions/rqiner-builds)
 from your home dir (or wherever you want to run it):
-``` wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-cuda-beta/rqiner-x86-cuda ```
+```
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-cuda-beta/rqiner-x86-cuda
+ ```
