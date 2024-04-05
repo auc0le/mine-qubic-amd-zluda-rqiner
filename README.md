@@ -48,6 +48,7 @@ apt install g++
     sudo apt install rocm
     echo "Please reboot system for all settings to take effect."
   ```
+### 1.1.7 Reboot for the changes to take effect!
 
 ## 1.2 Build ZLUDA
   Link to great ZLUDA project that makes this possible: https://github.com/vosen/ZLUDA
