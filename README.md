@@ -82,7 +82,7 @@ wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-
   chmod +x rqiner-x86-cuda
 ```
 
-## 3 Now let's mine some qubic!
+# 3 Now let's mine some qubic!
 ```
  LD_LIBRARY_PATH="/usr/lib/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i MENJJUJDUNWGYEOEMGAHXBTAOFOCQDQTHRYRZDGYPBNYECWASFPLUIJHMHLC -l GMK-K4-GPU
  ```
