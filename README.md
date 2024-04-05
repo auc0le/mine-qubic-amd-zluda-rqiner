@@ -42,7 +42,7 @@ apt install python3
   Link to great ZLUDA project that makes this possible: https://github.com/vosen/ZLUDA
 ## 1.2.1 Check out the git
   ```git clone --recurse-submodules https://github.com/vosen/zluda.git```
-## 1.2.2 Compile
+## 1.2.2 Compile (this can take a while, esp if you are CPU mining in the background)
   Change into the zluda dir and compile
   ```
   cd zluda/
