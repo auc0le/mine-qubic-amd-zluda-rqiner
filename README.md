@@ -7,6 +7,10 @@ I assume you are running Ubuntu, have a ZLUDA compatible AMD GPU, are working in
 
 # 1. Install ZLUDA
 ## 1.1 Prerequisites
+best to update your apt before starting:
+```
+apt update
+```
 ### 1.1.1 Git
 ```
 apt-get install git-all
