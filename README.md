@@ -43,9 +43,29 @@ Once your build has succeeded, you will want to move your target\release folder 
 mv ./target/release /usr/lib/zluda
  ```
 
-## 1.3 Download the CUDA version of rqiner
+# 2 Run rqiner to mine!
+  ATM this doesn't seem to work with the qli-client, so rqiner to the rescue!
+
+## 2.1 Download the CUDA version of rqiner
  Link to great rqiner project: [https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.3.19-cuda-beta](https://github.com/Qubic-Solutions/rqiner-builds)
 from your home dir (or wherever you want to run it):
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-cuda-beta/rqiner-x86-cuda
  ```
+## 2.2 Now let's mine some qubic!
+```
+ LD_LIBRARY_PATH="/usr/lib/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i MENJJUJDUNWGYEOEMGAHXBTAOFOCQDQTHRYRZDGYPBNYECWASFPLUIJHMHLC -l GMK-K4-GPU
+ ```
+
+You will want to change the address or you will be mining for me!  And you may want to change the label or it will look like you are using the little mini PC that I have for mining but you should be up and running!
+
+Example output:
+```
+[2024-04-05T18:14:56Z INFO  rqiner] Rust > C++ ;)
+[2024-04-05T18:14:56Z INFO  rqiner] rqiner v0.3.19
+[2024-04-05T18:14:56Z INFO  rqiner] Running Pool Miner
+[2024-04-05T18:14:56Z INFO  rqiner] Solution Threshold: 43 | Random Seed: [150, 3, 18, 211, 186, 100, 124, 91, 52, 76, 230, 86, 115, 50, 143, 244, 59, 16, 138, 136, 32, 221, 207, 243, 235, 37, 170, 20, 181, 147, 217, 182]
+[2024-04-05T18:14:56Z INFO  rqiner::gpu::pool] Mounted GPU0 AMD Radeon Graphics [ZLUDA] 3GB
+[2024-04-05T18:15:04Z INFO  rqiner::gpu::pool] GPU0 AMD Radeon Graphics [ZLUDA]: 50.10 it/s
+[2024-04-05T18:15:04Z INFO  rqiner::gpu::pool] TQCBV...FQVAN | Total Iterrate: 50.10 it/s | Average(10): 50.10 it/s | Solutions: 0
+```
