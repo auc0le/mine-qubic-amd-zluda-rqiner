@@ -7,9 +7,10 @@ Sample results:
 | GPU | Performance |
 | ------------- | ------------- |
 | Radeon 780M  | 50 it/s  |
+| RX 6600  | 95 it/s  |
 | RX 5700 XT  | 105 it/s  |
 | RX 6800 XT  | 309 it/s  |
-| 7900 XTX | 467 it/s |
+| RX 7900 XTX | 467 it/s |
 
 
 I assume you:
