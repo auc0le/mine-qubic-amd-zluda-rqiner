@@ -88,7 +88,7 @@ mv ./target/release /usr/lib/zluda
  Link to great rqiner project: [https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.3.19-cuda-beta](https://github.com/Qubic-Solutions/rqiner-builds)
 from your home dir (or wherever you want to run it):
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-cuda-beta/rqiner-x86-cuda
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.20-cuda-fix/rqiner-x86-cuda
  ```
 
 ## 2.2 Make the file executable 
