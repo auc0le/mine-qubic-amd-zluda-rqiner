@@ -113,3 +113,7 @@ Example output:
 [2024-04-05T18:15:04Z INFO  rqiner::gpu::pool] GPU0 AMD Radeon Graphics [ZLUDA]: 50.10 it/s
 [2024-04-05T18:15:04Z INFO  rqiner::gpu::pool] TQCBV...FQVAN | Total Iterrate: 50.10 it/s | Average(10): 50.10 it/s | Solutions: 0
 ```
+# 4. Optional tip
+You can send some qubic to me as a thanks if you get it working :) 
+
+My address is: MENJJUJDUNWGYEOEMGAHXBTAOFOCQDQTHRYRZDGYPBNYECWASFPLUIJHMHLC 
