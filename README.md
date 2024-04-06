@@ -85,7 +85,7 @@ mv ./target/release /usr/lib/zluda
   ATM this doesn't seem to work with the qli-client, so rqiner to the rescue!
 
 ## 2.1 Download the CUDA version of rqiner
- Link to great rqiner project: [https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.3.19-cuda-beta](https://github.com/Qubic-Solutions/rqiner-builds)
+ Link to great rqiner project: https://github.com/Qubic-Solutions/rqiner-builds
 from your home dir (or wherever you want to run it):
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.20-cuda-fix/rqiner-x86-cuda
