@@ -8,7 +8,7 @@ Sample results:
 | ------------- | ------------- |
 | Radeon 780M  | 50 it/s  |
 | RX 5700 XT  | 105 it/s  |
-| 7900xtx | 416 it/s |
+| 7900xtx | 467 it/s |
 
 
 I assume you:
