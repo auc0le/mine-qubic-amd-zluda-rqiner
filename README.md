@@ -21,7 +21,7 @@ I assume you:
   - are working in your homedir, 
   - and you are already root (sudo su).
 
-NOTE: WSL on windows does NOT support pure GPU passthru so ZLUDA will NOT work on Windows WSL.  Some user's have reported getting this ZLUDA setup to work in base windows but that is beyond the scope of this document.
+NOTE: WSL on windows does NOT support pure GPU passthru so ZLUDA will NOT work on Windows WSL.  Some user's have reported getting this ZLUDA setup to work in base windows and that is beyond the scope of this document but here is what they said: need to have zluda.exe and the dlls it came with in the same directory as the rqiner and load it through powershell.
 
 # 1. Install ZLUDA
 ## 1.1 Prerequisites
