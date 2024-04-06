@@ -15,10 +15,12 @@ I assume you:
   - are running Ubuntu 22.04,
     - Hive OS might work if you remove existing version first:
       ``apt purge hive-amdgpu-x.x.x/rocm-x.x.x``
-    - You want to go from driver ver 5.4.6--->6.3.2401.0 under 6.1.0 Hiveos(beta ver) based on Ubuntu 20
+    - You want to go from driver ver 5.4.6--->6.3.2401.0 under 6.1.0 Hiveos(beta ver) based on Ubuntu 20     
   - have a ZLUDA compatible AMD GPU, 
   - are working in your homedir, 
   - and you are already root (sudo su).
+
+NOTE: WSL on windows does NOT support pure GPU passthru so ZLUDA will NOT work on Windows WSL.  Some user's have reported getting this ZLUDA setup to work in base windows but that is beyond the scope of this document.
 
 # 1. Install ZLUDA
 ## 1.1 Prerequisites
