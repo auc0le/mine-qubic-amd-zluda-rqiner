@@ -81,7 +81,7 @@ Once your build has succeeded, you will want to move your target\release folder 
 mv ./target/release /usr/lib/zluda
  ```
 
-# 2 Run rqiner to mine!
+# 2. Run rqiner to mine!
   ATM this doesn't seem to work with the qli-client, so rqiner to the rescue!
 
 ## 2.1 Download the CUDA version of rqiner
