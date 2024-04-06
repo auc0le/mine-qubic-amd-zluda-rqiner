@@ -86,6 +86,7 @@ mv ./target/release /usr/lib/zluda
 
 ## 2.1 Download the CUDA version of rqiner
  Link to great rqiner project: https://github.com/Qubic-Solutions/rqiner-builds
+ 
 from your home dir (or wherever you want to run it):
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.20-cuda-fix/rqiner-x86-cuda
