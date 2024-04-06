@@ -3,6 +3,14 @@ Instructions on how to mine Qubic crypto on AMD GPUs with rqiner!
 
 I got this working on 4/5/2024 and I am getting 49.5 it/s on a Radeon 780M.
 
+Sample results:
+| GPU | Performance |
+| ------------- | ------------- |
+| Radeon 780M  | 50 it/s  |
+| RX 5700 XT  | 105 it/s  |
+| 7900xtx | 416 it/s |
+
+
 I assume you:
   - are running Ubuntu 22.04, 
   - have a ZLUDA compatible AMD GPU, 
@@ -83,7 +91,7 @@ wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19-
   chmod +x rqiner-x86-cuda
 ```
 
-# 3 Now let's mine some qubic!
+# 3. Now let's mine some qubic!
 ```
  LD_LIBRARY_PATH="/usr/lib/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i MENJJUJDUNWGYEOEMGAHXBTAOFOCQDQTHRYRZDGYPBNYECWASFPLUIJHMHLC -l GMK-K4-GPU
  ```
