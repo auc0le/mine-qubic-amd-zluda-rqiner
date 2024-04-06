@@ -63,6 +63,7 @@ apt install g++
 
 ## 1.2 Build ZLUDA
   Link to great ZLUDA project that makes this possible: https://github.com/vosen/ZLUDA
+  
   Note that to save time, you might try to use a release instead of building ZLUDA but building will make sure you have all the dependancies.
 ## 1.2.1 Check out the git
   ```git clone --recurse-submodules https://github.com/vosen/zluda.git```
