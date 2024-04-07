@@ -18,7 +18,7 @@ I assume you:
     - Hive OS might work if you remove existing version first:
       ``apt purge hive-amdgpu-x.x.x/rocm-x.x.x``
     - You want to go from driver ver 5.4.6--->6.3.2401.0 under 6.1.0 Hiveos(beta ver) based on Ubuntu 20     
-  - have a ZLUDA compatible AMD GPU, 
+  - have a ZLUDA [compatible AMD GPU](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/reference/system-requirements.html), 
   - are working in your homedir, 
   - and you are already root (sudo su).
 
