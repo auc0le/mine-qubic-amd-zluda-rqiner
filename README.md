@@ -93,7 +93,7 @@ mv ./target/release /usr/lib/zluda
  
 from your home dir (or wherever you want to run it):
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.22/rqiner-x86-cuda
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.4.0/rqiner-x86-cuda
  ```
 
 ## 2.2 Make the file executable 
